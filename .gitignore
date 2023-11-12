@@ -4,6 +4,10 @@
 .nrepl-port
 .cpcache
 .DS_Store
+*.jpg
+*.jpeg
+*.png
+*.gif
 nohup.out
 config.edn
 version.edn
