@@ -1,0 +1,10 @@
+.calva/
+.clj-kondo/
+.lsp/
+.nrepl-port
+.cpcache
+.DS_Store
+nohup.out
+config.edn
+version.edn
+logs

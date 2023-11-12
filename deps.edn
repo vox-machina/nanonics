@@ -1,0 +1,6 @@
+{:paths ["src"]
+ :deps {etaoin/etaoin {:mvn/version "0.4.6"}
+        aero/aero     {:mvn/version "1.1.6"}}
+ :aliases {;; Run with clj -T:build function-in-build
+           :build {:deps {io.github.clojure/tools.build {:git/tag "v0.9.4" :git/sha "76b78fe"}}
+                   :ns-default build}}}
